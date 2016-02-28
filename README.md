@@ -1,2 +1,2 @@
 # virus
-this is the first virus i  write  for detecting and  researching  the  mechanism of anti-virus app
+this is the first virus i  write  for analysing  the  mechanism of anti-virus app  -- 360
