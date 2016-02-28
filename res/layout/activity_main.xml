@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical" 
+    tools:context="com.example.doit.MainActivity"
+    >
+    
+ 
+    <EditText
+        android:id="@+id/jiyuanNumEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="职员编号"
+        android:text=""  
+        android:layout_marginBottom="0px"
+        android:layout_marginLeft="0px"
+        android:layout_marginRight="0px"
+        />
+    <EditText 
+        android:id="@+id/jiyuanMiMa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="职员密码"
+        android:text=""
+        android:inputType="textPassword" 
+        android:layout_below="@id/jiyuanNumEt"
+        />
+  
+    <EditText
+        android:id="@+id/sentenceContentEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="录入内容"
+        android:layout_below="@id/jiyuanMiMa"
+        android:text="" 
+        
+        android:layout_marginBottom="0px"
+        android:layout_marginLeft="0px"
+        android:layout_marginRight="0px"
+        android:visibility="invisible"
+        />
+  
+    
+      
+  
+        
+    <Button
+        android:id="@+id/okBt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/sentenceContentEt"
+        android:text="录入"
+        android:gravity="center_horizontal" 
+        android:visibility="invisible"/>
+    
+    <Button
+        android:id="@+id/uploadBt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/okBt"
+        android:text="登陆"
+        android:gravity="center_horizontal"
+        
+        />
+       
+    
+
+    <TextView
+        android:id="@+id/recordedNumTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/uploadBt"
+        android:text="已录入记录数：" 
+        android:layout_marginBottom="0px"
+        android:layout_marginLeft="0px"
+        android:layout_marginRight="0px"
+        android:visibility="invisible"
+        />
+    
+ 
+    
+</RelativeLayout>
